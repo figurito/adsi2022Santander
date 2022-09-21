@@ -15,7 +15,7 @@ def finalizacion():
     print("Gracias por utilizar este programa")
 
 # programa principal
-
-presentacion()
-carga_suma()
-finalizacion()
+x=0
+for x in range(5):
+    carga_suma()
+    finalizacion()
